@@ -1,0 +1,22 @@
+# Python virtual environment & cache
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large data directories (Bronze & Silver layers)
+data/bronze_raw/
+data/silver_partitioned/
+
+# Explicitly track lightweight Gold Analytics Warehouse (~1.2 MB)
+!data/gold_warehouse.duckdb
+
+# Temporary & download files
+*.download
+*.tmp
+
+# Environment & IDE configurations
+.env
+.idea/
+.vscode/
+.streamlit/secrets.toml
