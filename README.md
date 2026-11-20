@@ -71,6 +71,8 @@ streamlit run app.py
 ```
 Open [http://localhost:8501](http://localhost:8501) in your browser.
 
+https://nyc-taxi-bigdata-analyticsgit-ve5g2wsisgn5jd736egtcb.streamlit.app/
+
 ### 3. Re-running the Full Pipeline (Optional)
 To re-download raw data and rebuild the entire warehouse:
 ```bash
